@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#login{
+    background-image: url("../public/foods/gallery03.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: none;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#login::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.6);
+  }

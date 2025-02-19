@@ -1,0 +1,16 @@
+[
+        {   
+            "id": "1",
+            "image": "../public/foods/gallery06-800x832.jpg"
+        },
+        {   
+            "id": "2",
+            "image": "../public/foods/gallery07-800x444.jpg"
+        },
+        {   
+            "id": "3",
+            "image": "../public/foods/gallery02.jpg"
+        }
+        
+]
+
