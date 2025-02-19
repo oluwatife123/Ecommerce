@@ -32,7 +32,7 @@ export default function AllInOne() {
      <Review />
      <ReviewContent />
      <Section4 />
-     <GoogleMap />
+     {/* <GoogleMap /> */}
   </div>
      
     </>
