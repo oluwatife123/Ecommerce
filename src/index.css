@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #login{
-    background-image: url("../public/foods/gallery03.jpg");
+    background-image: url("../public/gallery03.jpg");
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
