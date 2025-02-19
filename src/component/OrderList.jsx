@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { db, collection, getDocs, deleteDoc, doc } from '../firebase-config';
 import Button from '../component/Button';
-import egusi from "../public/foods/ebaandegusi.jpeg";
+import egusi from "../public/ebaandegusi.jpeg";
 
 const OrderList = () => {
   const [orders, setOrders] = useState([]);

@@ -1,5 +1,5 @@
 import React from 'react'
-import last from '../public/foods/05.png'
+import last from '../public/05.png'
 
 export default function ShawaConnect() {
   return (
