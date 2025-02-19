@@ -1,4 +1,5 @@
 import React from 'react'
+import same from '../public/foods/02.png'
 
 export default function Shawa() {
   return (
@@ -22,7 +23,7 @@ export default function Shawa() {
                 <button className="btn-thai">
                     <a href="#">ORDER NOW</a> 
                 </button> 
-                <img src="../public/foods/02.png" alt="" />
+                <img src={same} alt="" />
             </div>
         </div>
             {/* item2 */}
@@ -38,7 +39,7 @@ export default function Shawa() {
                 <button className="btn-thai">
                     <a href="#">ORDER NOW</a> 
                 </button> 
-                <img src="../public/foods/02.png" alt="" />
+                <img src={same} alt="" />
             </div>
         </div> 
             {/* item3 */}
@@ -54,7 +55,7 @@ export default function Shawa() {
                 <button className="btn-thai">
                     <a href="#">ORDER NOW</a> 
                 </button> 
-                <img src="../public/foods/02.png" alt="" />
+                <img src={same} alt="" />
             </div>
         </div>
             {/* item4 */}
@@ -69,7 +70,7 @@ export default function Shawa() {
                 <button className="btn-thai">
                     <a href="#">ORDER NOW</a> 
                 </button> 
-                <img src="../public/foods/02.png" alt="" />
+                <img src={same} alt="" />
             {/* <!-- </div> --> */}
         </div>
     </div>

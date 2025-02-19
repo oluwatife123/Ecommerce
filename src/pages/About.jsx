@@ -1,6 +1,7 @@
 import React from 'react'
 import Section4 from './Section4'
 import Footer from '../component/Footer'
+import she from '../public/img/face1.jpg'
 
 export default function About() {
   return (
@@ -40,7 +41,7 @@ export default function About() {
             <h2 className=''>Meet the Team</h2>
            <div className="teamIntro1">
                     <div className="teamIntro1Img">
-                        <img src="./public/img/face1.jpg" alt=""  />
+                        <img src={she} alt=""  />
                     </div>
                     <h4> Ann jane</h4>
                     <p>Designer</p>

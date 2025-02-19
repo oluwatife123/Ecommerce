@@ -1,4 +1,5 @@
 import React from 'react'
+import last from '../public/foods/05.png'
 
 export default function ShawaConnect() {
   return (
@@ -6,7 +7,7 @@ export default function ShawaConnect() {
         {/* Shawa Connect */}
     <div className="shawaConnect h-full w-[100%] grid grid-cols-1 lg:flex pb-10">
         <div className="connectImg block ml-auto mr-auto lg:w-[30%] w-[80%] pb-6 lg:pb-0">
-            <img src="../public/foods/05.png" alt="" />
+            <img src={last} alt="" />
         </div>
         <div className="connectCont lg:w-[50%] lg:mt-20">
             <h3 className='text-center lg:text-left'>Let's Connect</h3>

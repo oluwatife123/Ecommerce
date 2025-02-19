@@ -25,7 +25,7 @@ export default function AllInOne() {
      <Deals />
      {/* <OrderPage /> */}
      <MenuDish />
-     <Gallery />
+     {/* <Gallery /> */}
      <Team />
      <About />
      <ShawaConnect />

@@ -1,4 +1,5 @@
 import React from 'react'
+import face1 from '../public/img/face1.jpg'
 
 export default function Review() {
   return (
@@ -11,7 +12,7 @@ export default function Review() {
             <h2>Clients reward</h2>
            <div className="reviewS">
                     <div className="reviewSImg">
-                        <img src="../public/img/face1.jpg" alt="" />
+                        <img src={face1} alt="" />
                     </div>
                     <h4> Ann jane</h4>
                     <p className='dot'>Designer</p>

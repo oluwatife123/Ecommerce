@@ -1,5 +1,10 @@
 import React from 'react'
 
+import card1 from '../public/foods/05.png'
+import card2 from '../public/foods/03.png'
+import card3 from '../public/foods/02.png'
+
+
 export default function Deals() {
   return (
     <>
@@ -19,7 +24,7 @@ export default function Deals() {
                     </div>
                     
                     <div className="card1-img">
-                        <img src="../public/foods/05.png" alt="" />
+                        <img src={card1} alt="" />
                     </div>
                 </div>
 
@@ -31,7 +36,7 @@ export default function Deals() {
                         <a href="#">Order Now</a>
                     </div>
                     <div className="card2-img">
-                        <img src="../public/foods/03.png" alt="" />
+                        <img src={card2} alt="" />
                     </div>
                 </div>
 
@@ -43,7 +48,7 @@ export default function Deals() {
                         <a href="#">Order Now</a>
                     </div>
                     <div className="card3-img">
-                        <img src="../public/foods/02.png" alt="" />
+                        <img src={card3} alt="" />
                     </div>
             </div>
             </div>

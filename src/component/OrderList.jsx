@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { db, collection, getDocs, deleteDoc, doc } from '../firebase-config';
 import Button from '../component/Button';
+import egusi from "../public/foods/ebaandegusi.jpeg";
 
 const OrderList = () => {
   const [orders, setOrders] = useState([]);
@@ -61,7 +62,7 @@ const OrderList = () => {
         {/* Food images */}
         <div className='lg:ml-20 px-3 lg:px-0 lg:w-[40%] mt-36 rounded-full'>
           <img 
-            src="../public/foods/ebaandegusi.jpeg" 
+            src= {egusi}
             className='w-full rounded-full animate-bounce shadow-2xl' 
             alt="Food" 
           />

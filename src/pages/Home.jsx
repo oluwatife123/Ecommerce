@@ -1,4 +1,5 @@
 import React from 'react'
+import food from '../public/foods/06.png'
 
 export default function home() {
   return (
@@ -26,7 +27,7 @@ export default function home() {
 
                     <aside className="cafeSimage mt-6  lg:flex lg:ml-0 lg:mr-0 block ml-auto mr-auto w-[80%] lg:w-[45%]">
                 <div>
-                    <img src="../public/foods/06.png" className='lg:mb-8' alt="" />
+                    <img src={food} className='lg:mb-8' alt="" />
                 </div>
                     
                 </aside>
