@@ -5,7 +5,7 @@ export default function home() {
   return (
     <>
 
-    <div className="for" id='home'>
+    <div className="for w-full top-10" id='home'>
 
         {/* Main-Section */}
         <div className="mainSection top-5  grid grid-cols-1 md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-2">
