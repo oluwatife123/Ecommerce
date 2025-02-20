@@ -1,5 +1,5 @@
 import React from 'react'
-import food from '../assets/foods/06.png'
+import food from '../assets/06.png'
 
 export default function home() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react'
 
-import card1 from '../assets/foods/05.png'
-import card2 from '../assets/foods/03.png'
-import card3 from '../assets/foods/02.png'
+import card1 from '../assets/05.png'
+import card2 from '../assets/03.png'
+import card3 from '../assets/02.png'
 
 
 export default function Deals() {

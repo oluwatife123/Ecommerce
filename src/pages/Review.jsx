@@ -1,5 +1,5 @@
 import React from 'react'
-import face1 from '../assets/img/face1.jpg'
+import face1 from '../assets/face1.jpg'
 
 export default function Review() {
   return (

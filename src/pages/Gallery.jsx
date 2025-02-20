@@ -1,7 +1,7 @@
 import React from "react";
-import case1 from '../assets/foods/gallery06-800x832.jpg'
-import case2 from '../assets/foods/gallery07-800x444.jpg'
-import case3 from '../assets/foods/gallery02.jpg'
+import case1 from '../assets/gallery06-800x832.jpg'
+import case2 from '../assets/gallery07-800x444.jpg'
+import case3 from '../assets/gallery02.jpg'
 import galleryData from "./gallery.json"; // Ensure the correct path
 
 export default function Gallery() {

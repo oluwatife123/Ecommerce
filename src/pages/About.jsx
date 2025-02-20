@@ -1,7 +1,7 @@
 import React from 'react'
 import Section4 from './Section4'
 import Footer from '../component/Footer'
-import she from '../assets/img/face1.jpg'
+import she from '../assets/face1.jpg'
 
 export default function About() {
   return (
