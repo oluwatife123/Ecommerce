@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../public/logo/jevelin_logo.png'
+import img from '../assets/logo/jevelin_logo.png'
 
 export default function Logo() {
   return (

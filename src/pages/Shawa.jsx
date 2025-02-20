@@ -1,5 +1,5 @@
 import React from 'react'
-import same from '../public/foods/02.png'
+import same from '../assets/foods/02.png'
 
 export default function Shawa() {
   return (
