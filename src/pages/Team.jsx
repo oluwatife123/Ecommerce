@@ -1,8 +1,8 @@
 import React from 'react'
-import faces from '../public/face1.jpg'
-import face2 from '../public/face2.jpg'
-import face3 from '../public/face3.jpg'
-import face4 from '../public/face4.jpg'
+import faces from '../public/img/face1.jpg'
+import face2 from '../public/img/face2.jpg'
+import face3 from '../public/img/face3.jpg'
+import face4 from '../public/img/face4.jpg'
 
 export default function Team() {
   return (
