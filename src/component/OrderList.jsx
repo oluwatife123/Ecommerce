@@ -1,30 +1,29 @@
 // src/OrderList.js
 import React, { useEffect, useState } from 'react';
-import { db, collection, getDocs, deleteDoc, doc } from '../firebase-config';
-import Button from '../component/Button';
+import { db, collection, onSnapshot, deleteDoc, doc, orderBy, query } from '../firebase-config';
 import egusi from "../assets/ebaandegusi.jpeg";
 
 const OrderList = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    const fetchOrders = async () => {
-      try {
-        const querySnapshot = await getDocs(collection(db, 'orders'));
-        const ordersArray = querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-        setOrders(ordersArray);
-      } catch (error) {
-        console.error("Error fetching documents: ", error);
-      }
-    };
+    // Use real-time listener
+    const q = query(collection(db, 'orders'), orderBy('timestamp', 'desc')); // Sorting orders by latest first
 
-    fetchOrders();
+    const unsubscribe = onSnapshot(q, (querySnapshot) => {
+      const ordersArray = querySnapshot.docs.map(doc => ({
+        id: doc.id,
+        ...doc.data()
+      }));
+      setOrders(ordersArray);
+    });
+
+    return () => unsubscribe(); // Cleanup on unmount
   }, []);
 
   const handleDelete = async (id) => {
     try {
       await deleteDoc(doc(db, 'orders', id));
-      setOrders(orders.filter(order => order.id !== id));
     } catch (error) {
       console.error("Error deleting document: ", error);
     }
@@ -35,7 +34,6 @@ const OrderList = () => {
       <div className='lg:flex block w-[100%]' id='orderlist'>
         <div className='lg:w-[50%] bg-[#e9e1e1] rounded ml-4 '>
           <h2 className='text-center text-[red] font-bold text-[1.2rem] mt-6 mb-5'>Order List</h2>
-          <p className="mt-2 text-center mb-5 "></p>
           <ul className='w-[100%] lg:w-full mt-5'>
             {orders.map((order) => (
               <div key={order.id} className='flex justify-center'>
