@@ -5,10 +5,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
 }
-body{
- background: url("../src/public/foods/background1.jpg");
- z-index: -5;
-}
+
 
 .myHeader{
   position: fixed;
@@ -101,7 +98,6 @@ color: rgb(0, 0, 0);
 .dropdown {
 position: relative;
 display: inline-block;
-
 }
 .dropbtn{
 color: rgb(255, 255, 255);
@@ -187,7 +183,7 @@ justify-self: flex-end;
 
 .login-register p a:hover{
 text-decoration: underline;
-}
+} */
 
  .for{
     position: absolute;
@@ -987,7 +983,6 @@ border-radius: 0px;
 font-size: 15px;
 min-height: 160px;
 }
-
 
 .shawa3{
 width: 100%;
