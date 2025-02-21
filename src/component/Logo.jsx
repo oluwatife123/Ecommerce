@@ -1,11 +1,10 @@
 import React from 'react'
-import img from '../assets/jevelin_logo.png'
 
 export default function Logo() {
   return (
     <>
     <div className=''>
-        <img src={img} alt="" />
+        <p className='text-white text-2xl'>Javelin</p>
     </div>
     </>
   )
