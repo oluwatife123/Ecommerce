@@ -4,7 +4,7 @@ export default function Section2() {
   return (
     <>
                 {/* my bg section2 */}
-    <div className="section2 mt-24 h-full lg:py-[80px]" >
+    <div className="section2 mt-28 mt- h-full lg:py-[80px]" >
 
       <div className='lg:w-[80%] w-[100%] justify-center lg:flex grid grid-cols-1 '>
          {/* 1 */}
